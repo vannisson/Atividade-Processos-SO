@@ -1,6 +1,6 @@
 import os # Importando o módulo para trabalhar com o sistema operacional
 import time # Importando o módulo de tempo
-from multiprocessing import Process
+from multiprocessing import Process # Biblioteca disponível em: https://docs.python.org/3/library/multiprocessing.html
 
 def openExplorer(): # Criando uma função que utiliza o sistema operacional para abrir o explorer
   os.startfile('C:\Program Files (x86)\Internet Explorer\iexplore.exe')
